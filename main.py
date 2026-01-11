@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/api/mesaj")
 def mesaj_gonder():
-    return {"icerik": "Merhaba! Bu mesaj Render sunucusundan geldi 🚀"}
+    return {"icerik": "Merhaba! Bu mesaj Render sunucusundan geldi 2 🚀"}
 
 # Bu kısım sadece bilgisayarında test ederken çalışır.
 # Render kendi komutuyla başlatacağı için burası sunucuda çalışmaz, zararı yoktur.
